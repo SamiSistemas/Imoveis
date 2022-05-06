@@ -1,4 +1,4 @@
-# Meu Boleto
+# API para integração
 Como adicionar um botão flutuante de chat para que o usuário consiga retirar boleto em seu site.
 
 
@@ -9,33 +9,16 @@ Como adicionar um botão flutuante de chat para que o usuário consiga retirar b
 Solicitar à Sami as seguintes credenciais de acesso para integração.
 
 
-### **2º - Adicionar Script de configuração para o botão flutuante.**
+### **Cidade**
 
 Inserir, antes do fechamento da tag BODY do site, a chamada para as configurações.
-
+URL: https://wapi.samierp.com.br/AUTHENTICATION_KEY/locacao/cidades/
 
 ### Exemplo:
 
-```js
-<script src="https://wapi.samierp.com.br/js/meu-boleto/index.js"></script>
-<script>
-
-        meuBoleto({
-            'config' : {
-                'usuario' : 'inserir aqui a ID Usuario',
-                'parceiro' : 'inserir aqui a ID Parceiro',
-                'sigla' : 'inserir aqui a sigla',
-                'senha' : true // Informe false caso não seja preciso solicitar senha ao usuário
-            },
-            'botao' : {
-                'cor' : 'rgb(0 5 199)', 
-                'titulo' : 'Meu Boleto'
-            },
-            'chat' : {
-                'cor' : 'rgb(0 5 199)',
-                'titulo' : 'Meu Boleto'
-            }
-        });
-
-</script>
+```php
+{
+    "sigla": "KEY",
+    "chamadaInterna": true
+}
 ```
