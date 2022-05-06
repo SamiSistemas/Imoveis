@@ -79,8 +79,8 @@ URL: https://wapi.samierp.com.br/AUTHENTICATION_KEY/locacao/caracteristicas/{id_
 
 ### **Caracteristicas do imóvel**
 
-Todos Imóveis => URL: https://wapi.samierp.com.br/AUTHENTICATION_KEY/locacao/imovel/
-Único imóvel => URL: https://wapi.samierp.com.br/AUTHENTICATION_KEY/locacao/imovel/{id_imovel}
+##### Todos Imóveis => URL: https://wapi.samierp.com.br/AUTHENTICATION_KEY/locacao/imovel/
+##### Único imóvel => URL: https://wapi.samierp.com.br/AUTHENTICATION_KEY/locacao/imovel/{id_imovel}
 
 ### Exemplo:
 
@@ -88,18 +88,18 @@ Todos Imóveis => URL: https://wapi.samierp.com.br/AUTHENTICATION_KEY/locacao/im
 {
     "sigla": "KEY",
     "chamadaInterna": true,
-    "properties_per_page": 50, #imóveis por página
-    "current_page": 1, #pagina atual
-    "city": 'Porto Alegre',
-    "district": ['AUXILIADORA', 'CENTRO'],
-    "types": ['Apto', 'Casa'],
+    "properties_per_page": 50, #Imóveis por página
+    "current_page": 1, #Pagina atual
+    "city": 'Porto Alegre', #Cidade
+    "district": ['AUXILIADORA', 'CENTRO'], #Bairros
+    "types": ['Apto', 'Casa'], #Tipos de Imóvel
     "bedrooms": 1, #Dormitórios
     "garages": 1, #Garagens
-    "bathrooms": 1 #banheiros
-    "suites": 1, #suítes
+    "bathrooms": 1 #Banheiros
+    "suites": 1, #Suítes
     "minimum_value": 50000, #Valor minímo
     "maximum_value": 150000, #Valor máximo
-    "minimum_area": 30, #área minímo
-    "maximum_area": 100, #área máximo
+    "minimum_area": 30, #Área minímo
+    "maximum_area": 100, #Área máximo
 }
 ```
