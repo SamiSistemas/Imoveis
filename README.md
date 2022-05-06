@@ -10,7 +10,7 @@ Solicitar à Sami as seguintes credenciais de acesso para integração(Username,
 Content-Type: application/json
 ```
 
-### **Cidade**
+### **Consultar cidades**
 
 URL: https://wapi.samierp.com.br/AUTHENTICATION_KEY/locacao/cidades/
 
@@ -23,7 +23,7 @@ URL: https://wapi.samierp.com.br/AUTHENTICATION_KEY/locacao/cidades/
 }
 ```
 
-### **Bairros**
+### **Consultar bairros**
 
 URL: https://wapi.samierp.com.br/AUTHENTICATION_KEY/locacao/bairros/
 
@@ -37,7 +37,7 @@ URL: https://wapi.samierp.com.br/AUTHENTICATION_KEY/locacao/bairros/
 }
 ```
 
-### **Tipo de imóvel**
+### **Consultar tipos de imóveis**
 
 URL: https://wapi.samierp.com.br/AUTHENTICATION_KEY/locacao/tiposimovel/
 
@@ -50,7 +50,7 @@ URL: https://wapi.samierp.com.br/AUTHENTICATION_KEY/locacao/tiposimovel/
 }
 ```
 
-### **Fotos do imóvel**
+### **Consultar fotos do imóvel**
 
 URL: https://wapi.samierp.com.br/AUTHENTICATION_KEY/locacao/fotos/{id_imovel}
 
@@ -63,7 +63,7 @@ URL: https://wapi.samierp.com.br/AUTHENTICATION_KEY/locacao/fotos/{id_imovel}
 }
 ```
 
-### **Caracteristicas do imóvel**
+### **Consultar caracteristicas do imóvel**
 
 URL: https://wapi.samierp.com.br/AUTHENTICATION_KEY/locacao/caracteristicas/{id_imovel}
 
@@ -77,7 +77,7 @@ URL: https://wapi.samierp.com.br/AUTHENTICATION_KEY/locacao/caracteristicas/{id_
 ```
 
 
-### **Caracteristicas do imóvel**
+### **Consultar imóvel/imóveis**
 
 ##### Todos Imóveis => URL: https://wapi.samierp.com.br/AUTHENTICATION_KEY/locacao/imovel/
 ##### Único imóvel => URL: https://wapi.samierp.com.br/AUTHENTICATION_KEY/locacao/imovel/{id_imovel}
