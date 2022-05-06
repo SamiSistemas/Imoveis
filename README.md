@@ -75,3 +75,31 @@ URL: https://wapi.samierp.com.br/AUTHENTICATION_KEY/locacao/caracteristicas/{id_
     "chamadaInterna": true
 }
 ```
+
+
+### **Caracteristicas do imóvel**
+
+Todos Imóveis => URL: https://wapi.samierp.com.br/AUTHENTICATION_KEY/locacao/imovel/
+Único imóvel => URL: https://wapi.samierp.com.br/AUTHENTICATION_KEY/locacao/imovel/{id_imovel}
+
+### Exemplo:
+
+```php
+{
+    "sigla": "KEY",
+    "chamadaInterna": true,
+    "properties_per_page": 50, #imóveis por página
+    "current_page": 1, #pagina atual
+    "city": 'Porto Alegre',
+    "district": ['AUXILIADORA', 'CENTRO'],
+    "types": ['Apto', 'Casa'],
+    "bedrooms": 1, #Dormitórios
+    "garages": 1, #Garagens
+    "bathrooms": 1 #banheiros
+    "suites": 1, #suítes
+    "minimum_value": 50000, #Valor minímo
+    "maximum_value": 150000, #Valor máximo
+    "minimum_area": 30, #área minímo
+    "maximum_area": 100, #área máximo
+}
+```
