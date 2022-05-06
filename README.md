@@ -99,7 +99,7 @@ URL: https://wapi.samierp.com.br/AUTHENTICATION_KEY/locacao/caracteristicas/{id_
     "suites": 1, #Suítes
     "minimum_value": 50000, #Valor minímo
     "maximum_value": 150000, #Valor máximo
-    "minimum_area": 30, #Área minímo
-    "maximum_area": 100, #Área máximo
+    "minimum_area": 30, #Área miníma
+    "maximum_area": 100, #Área máxima
 }
 ```
