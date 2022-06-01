@@ -1,8 +1,7 @@
-# API para integração
-Como adicionar um botão flutuante de chat para que o usuário consiga retirar boleto em seu site.
+# API para integração dos imóveis da imobiliária
 
-
-Solicitar à Sami as seguintes credenciais de acesso para integração(Username, KEY, AUTHENTICATION_KEY).
+API destinada à consulta de imóveis disponíveis para locação.
+Solicitar à Sami as seguintes credenciais de acesso ( Username, KEY, AUTHENTICATION_KEY ).
 
 
 ### **Utilizar**
