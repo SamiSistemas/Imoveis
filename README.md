@@ -1,12 +1,19 @@
 # API para integração dos imóveis da imobiliária
 
 API destinada à consulta de imóveis disponíveis para locação.
-Solicitar à Sami as seguintes credenciais de acesso ( Username, KEY, AUTHENTICATION_KEY ).
+Solicitar à Sami as seguintes credenciais de acesso ( *Username, *KEY, *AUTHENTICATION_KEY ).
 
 
 ### **Utilizar**
+##### **Header**
 ```json
 Content-Type: application/json
+```
+
+##### **Authorization**
+```json
+Type: Basic Auth
+Username: *Username
 ```
 
 ### **Consultar cidades**
