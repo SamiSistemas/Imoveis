@@ -39,7 +39,7 @@ URL: https://wapi.samierp.com.br/AUTHENTICATION_KEY/locacao/bairros/
 {
     "sigla": "KEY",
     "chamadaInterna": true,
-    city": "Porto Alegre"
+    "city": "Porto Alegre"
 }
 ```
 
